@@ -1,4 +1,4 @@
-@url = https://psychic-doodle-r74xxqxg4v25vv5-8080.app.github.dev
+@url = https://8080-marcoweb-apiquiz20242-us2tnb4btx5.ws-us116.gitpod.io
 
 ###
 GET {{url}}/categorias
