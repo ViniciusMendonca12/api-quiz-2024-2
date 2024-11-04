@@ -18,7 +18,7 @@ import application.model.Usuario;
 public class TokenService {
     @Value("${api.security.token.key}")
     private String tokenKey;
-,
+
     private Instant expirationDate() {
         return LocalDateTime.now().plusHours(2).toInstant(ZoneOffset.of("-03:00"));
     }
