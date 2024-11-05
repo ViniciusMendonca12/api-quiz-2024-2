@@ -1,13 +1,19 @@
-@url = https://psychic-doodle-r74xxqxg4v25vv5-8080.app.github.dev
+#@url = https://8080-marcoweb-apiquiz20242-us2tnb4btx5.ws-us116.gitpod.io
+
+@url = http://localhost:8080
+
+@token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJBUEkgUXVpenplcyIsInN1YiI6ImFkbWluIiwiZXhwIjoxNzMwNzQ3OTY0fQ.leWf1DV4lExlSyJiAOYxTVE1v5fudxN9TX7U4fHrvKc
 
 ###
 GET {{url}}/categorias
+Authorization: Bearer {{token}}
 
 ###
 GET {{url}}/categorias/10
 
 ###
 POST {{url}}/categorias
+Authorization: Bearer {{token}}
 Content-Type: application/json
 
 {
